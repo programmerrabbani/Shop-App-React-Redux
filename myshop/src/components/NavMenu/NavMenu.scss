@@ -1,0 +1,16 @@
+.menu {
+  background-color: #487eb0;
+  ul {
+    display: flex;
+    gap: 10px;
+
+    li {
+      padding: 10px 20px;
+
+      a {
+        color: #ff9f43;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

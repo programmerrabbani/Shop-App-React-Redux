@@ -1,0 +1,38 @@
+.product_item {
+  width: 23%;
+  margin-bottom: 20px;
+
+  .pricing {
+    display: flex;
+    gap: 5px;
+    font-size: 17px;
+    font-weight: 200;
+
+    .reguler {
+      text-decoration: line-through;
+    }
+
+    .sale {
+      font-weight: 500;
+    }
+  }
+
+  .product_button {
+    margin-top: 10px;
+    text-align: center;
+    button {
+      border-radius: 0px;
+      font-size: 12px;
+    }
+
+    .cart_btn {
+      background-color: #487eb0;
+      border-color: #487eb0;
+    }
+    .view_btn {
+      transition: 0.5s;
+      background-color: #ff9f43;
+      border-color: #ff9f43;
+    }
+  }
+}

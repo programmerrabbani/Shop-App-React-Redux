@@ -1,0 +1,11 @@
+.product_form {
+  display: flex;
+  gap: 30px;
+
+  .form_left {
+    flex: 1;
+  }
+  .form_right {
+    flex: 1;
+  }
+}
